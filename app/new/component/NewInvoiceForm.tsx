@@ -29,19 +29,6 @@ export const NewInvoiceForm = () => {
         <FormProvider {...methods}>
           <div className="max-w-lg min-h-screen w-full h-full p-4 md:p-12 border-r border-dashed flex flex-col justify-between">
             <div>
-              <div className="flex gap-2 items-center">
-                <Image
-                  src="/android-chrome-512x512.png"
-                  width={40}
-                  height={40}
-                  className="rounded-lg"
-                  alt="logo"
-                />
-                <div>
-                  <p className="font-semibold">Invoice Generator</p>
-                  <p className="text-orange-500 text-sm">By Prolab</p>
-                </div>
-              </div>
               <UserInputForm />
             </div>
             <FormSteps />
